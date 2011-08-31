@@ -1,0 +1,4 @@
+pymongo
+git+http://github.com/FlaPer87/django-mongodb-engine.git#egg=django_mongodb_engine
+hg+http://bitbucket.org/wkornewald/django-nonrel#egg=Django
+hg+http://bitbucket.org/wkornewald/djangotoolbox#egg=djangotoolbox
