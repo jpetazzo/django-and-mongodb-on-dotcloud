@@ -1,7 +1,8 @@
 # Django settings for hellodjango project.
 
 import json
-with open('/home/dotcloud/environment.json') as f:
+import os
+with open(os.path.expanduser('~/environment.json')) as f:
   env = json.load(f)
 
 DEBUG = True
