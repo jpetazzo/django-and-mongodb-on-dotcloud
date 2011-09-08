@@ -1,4 +1,5 @@
 #!/bin/sh
+python waitfordb.py
 python hellodjango/manage.py syncdb --noinput
 python mkadmin.py
 mkdir -p /home/dotcloud/data/media /home/dotcloud/data/static
